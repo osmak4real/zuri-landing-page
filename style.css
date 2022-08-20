@@ -1,0 +1,83 @@
+*{
+    font-family: Averta, sans-serif ;
+    margin: 0;
+    color: #212529;
+}
+/* styling of the header on the landing page */
+.first_box{
+    background-image: url(https://zuri.team/img/hero-bg.svg);
+    text-align: center;
+}
+.first_box2{
+    padding: 10px;
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+}
+.first_box2 a{
+    text-decoration: none;
+    color:#e7332b;
+}
+.first_box2 button{
+    padding: 11px 28px;
+    border: 1px solid #e7332b;
+}
+
+.first_box img{
+    margin: 4em;
+}
+ .first_box h2{
+    font-size: 32px;
+    line-height: 48px;
+    font-weight: 800;
+    color: #514949;
+    margin-bottom: 36px;
+ }
+ .first_box p{
+    font-size: 16px;
+    line-height: 24px;
+    color: #514949;
+    opacity: 0.9;
+    text-align: center;
+    margin-bottom: 1rem;
+ }
+
+ /* styling of the main section */
+.second_box{
+    display: block;
+    margin: 0 auto;
+    max-width: 1440px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+ .second_box2 h2{
+    text-align: center;
+    font-size: 14px;
+    line-height: 24px;
+    color: #e7332b;
+    margin-top: 141px;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+ }
+ .second_box2 p{
+    font-size: 24px;
+    line-height: 40px;
+    text-align: center;
+    color: #514949;
+    margin-top: 8px;
+    margin-bottom: 64px;
+ }
+ .section_holder{
+    max-width: 80%;
+    display:flex;
+    flex-wrap: nowrap;
+    /* justify-content: space-evenly; */
+    margin:0 auto;
+ }
+ .section_holder div {
+    display: block;
+    /* width: 100%; */
+    margin: 3em;
+    line-height: 2rem;
+ }
